@@ -88,7 +88,7 @@ message(STATUS "${PROJECT_NAME}_RESOURCE_PATH: ${${PROJECT_NAME}_RESOURCE_PATH}"
 message(STATUS "")
 
 add_subdirectory(${${PROJECT_NAME}_THIRDPARTY_PATH})
-# add_subdirectory(${${PROJECT_NAME}_MODULE_PATH})
+add_subdirectory(${${PROJECT_NAME}_MODULE_PATH})
 # add_subdirectory(${${PROJECT_NAME}_APPLICATION_PATH})
 
 set(${PROJECT_NAME}_SOURCE_FILES
