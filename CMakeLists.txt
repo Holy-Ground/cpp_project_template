@@ -118,6 +118,8 @@ set(${PROJECT_NAME}_SOURCE_FILES
 # )
 # add_dependencies(${PROJECT_NAME}
 
+# include(cmake/create_documents.cmake)
+
 # ! Add dependencies here
 # )
 # target_compile_options(${PROJECT_NAME} PRIVATE
